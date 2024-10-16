@@ -16,7 +16,7 @@ const Transform = () => {
   };
 
   return (
-    <div className="container max-w-[1440px] px-5 pt-[70px] md:pt-5 pb-[50px] sm:pb-[100px] mx-auto lg:px-10 xl:px-[63px] transform-padding">
+    <div className="container max-w-[1440px] px-5 pt-[70px] md:pt-5 pb-[50px] lg:pb-[100px] mx-auto lg:px-10 xl:px-[63px] transform-padding">
       <div className="sm:mt-[745px]">
         <div className="grid grid-cols-1 sm:grid-cols-12 gap-0 xl:gap-3 mb-[20px] sm:mb-[40px]">
           <div className="sm:col-span-5 lg:col-span-4 xl:col-span-3">

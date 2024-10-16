@@ -63,7 +63,7 @@ const StepByStepGuide = () => {
             </div>
             <div className="max-sm:order-2 mb-[40px] sm:mb-[30px] lg:mb-[40px]">
               <Image
-                src="/img/case/step-by-step-1.svg"
+                src="/img/case/step-by-step-1.png"
                 alt="Step 1"
                 width={328}
                 height={203}
@@ -73,7 +73,7 @@ const StepByStepGuide = () => {
             </div>
             <div className="max-sm:order-4 mb-[40px] sm:mb-[30px] lg:mb-[40px]">
               <Image
-                src="/img/case/step-by-step-2.svg"
+                src="/img/case/step-by-step-2.png"
                 alt="Step 2"
                 width={328}
                 height={203}

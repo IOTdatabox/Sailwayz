@@ -12,7 +12,7 @@ import React from "react";
 const Page = () => {
   return (
     <>
-      <div className="w-full bg-[url('/img/case/case-study-3.png')] bg-cover bg-no-repeat max-sm:bg-center">
+      <div className="w-full bg-[url('/img/case/case-study-3.png')] bg-cover bg-no-repeat max-lg:bg-center">
         <Header />
         <Hero />
       </div>

@@ -35,7 +35,7 @@ const EnhanceCustomer = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 mt-[30px] sm:mt-[50px] gap-[50px]">
           <EnhanceItem
-            src="/img/services/e-1.svg"
+            src="/img/services/e-1.png"
             title="Optimizing Your CRM Sales Strategy"
             content={
               "At Sailways, our tailored Salesforce CRM consulting services are designed to enhance sales strategies and foster business growth."
@@ -46,7 +46,7 @@ const EnhanceCustomer = () => {
           />
 
           <EnhanceItem
-            src="/img/services/e-2.svg"
+            src="/img/services/e-2.png"
             title="Revolutionize Your Sales Tactics"
             content={
               "Efficient workflows are the backbone of any thriving business. Sailways excels in refining operations with Salesforce CRM."
@@ -57,7 +57,7 @@ const EnhanceCustomer = () => {
           />
 
           <EnhanceItem
-            src="/img/services/e-3.svg"
+            src="/img/services/e-3.png"
             title="Simplify Your Workflows Boost Customer Interaction"
             content={
               "In today’s competitive market, delivering outstanding customer experiences is vital. Sailways' Salesforce CRM consulting services enable you to enhance customer interaction and build enduring connections."

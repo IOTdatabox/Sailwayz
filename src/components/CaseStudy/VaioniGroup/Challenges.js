@@ -17,14 +17,16 @@ const Challenges = () => {
 
   const ChallengesItem = ({ src, title, content }) => (
     <div className="bg-white rounded-[8px] p-[16px] sm:p-[25px] lg:p-[20px] xl:p-[30px] transition-transform duration-300 ease-in-out transform hover:scale-[1.03]">
-      <Image
-        src={src}
-        alt="Salesforce cloud"
-        width={62}
-        height={62}
-        loading="lazy"
-        className="w-[42px] sm:w-[62px] lg:w-[55px] xl:w-[62px] h-[42px] sm:h-[62px] lg:h-[55px] xl:h-[62px] mb-[10px] lg:mb-[8px] xl:mb-[10px]"
-      />
+      <div className="w-[42px] sm:w-[62px] lg:w-[55px] xl:w-[62px] h-[42px] sm:h-[62px] lg:h-[55px] xl:h-[62px] mb-[10px] lg:mb-[8px] xl:mb-[10px] bg-secondaryColor rounded-full flex items-center justify-center">
+        <Image
+          src={src}
+          alt="Salesforce cloud"
+          width={27}
+          height={27}
+          loading="lazy"
+          className="w-[18.38px] sm:w-[27.13px] h-[18.38px] sm:h-[27.13px]"
+        />
+      </div>
       <h4 className="text-[16px] sm:text-[22px] lg:text-[20px] xl:text-[22px] leading-[24px] sm:leading-[32px] lg:leading-[30px] xl:leading-[32px] text-primaryColor lato-thin font-bold mb-[10px] lg:mb-[8px] xl:mb-[10px] mt-[10px]">
         {title}
       </h4>

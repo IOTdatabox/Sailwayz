@@ -18,23 +18,24 @@ const OurMission = () => {
   return (
     <div className="container max-w-[1440px] px-5 mx-auto py-[50px] sm:py-[100px] lg:px-10 xl:px-[63px]">
       <div className="flex gap-[30px] lg:gap-0 xl:gap-[30px] flex-col lg:flex-row">
-        <div className="w-full lg:w-[60%] xl:w-[58%]">
-          <Image
-            src="/img/about/our-mission.svg"
-            alt="Our Mission"
-            width={753}
-            height={395}
-            loading="lazy"
-            className="hidden w-full h-full lg:block"
-          />
-          <Image
-            src="/img/about/our-mission-2.svg"
-            alt="Our Mission"
-            width={335}
-            height={188}
-            loading="lazy"
-            className="block w-full h-auto lg:hidden"
-          />
+        <div className="w-full lg:w-[60%] xl:w-[58%] lg:pr-[50px]">
+          <div className="relative h-full">
+            <Image
+              src="/img/about/our-mission.png"
+              alt="Our Mission"
+              width={753}
+              height={395}
+              loading="lazy"
+              className="w-full h-full rounded-[24px]"
+            />
+            <Image
+              src="/img/about/play-icon.svg"
+              alt="Play icon"
+              width={72}
+              height={72}
+              className="absolute w-[34.28px] sm:w-[72px] h-[34.28px] sm:h-[72px] top-[42%] left-[45%] lg:left-[43%]"
+            />
+          </div>
         </div>
         <div className="w-full lg:w-[40%] xl:w-[42%]">
           <Image
@@ -56,7 +57,7 @@ const OurMission = () => {
             innovation drive us to deliver exceptional results, enabling our
             clients to thrive in the digital era.
           </p>
-          <div className="py-[9px] sm:py-[14px]">
+          <div className="max-sm:py-[9px] sm:pt-[14px]">
             <a
               className="bg-primaryPink hover:bg-secondaryPink transition-button px-[20px] sm:px-[25px] xl:px-[30px] py-[9px] sm:py-[14px] text-[12px] sm:text-[16px] text-center leading-[24px] sm:leading-[26px] font-bold futura-bold rounded-[160px] text-white tracking-wide max-xl:w-full max-xl:block cursor-pointer"
               onClick={freeConsultationClick}

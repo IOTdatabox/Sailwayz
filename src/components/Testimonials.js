@@ -5,44 +5,44 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    name: "Brooklyn Simmons",
-    role: "CEO",
-    company: "/img/home/r1se.svg",
-    image: "/img/home/t-2.svg",
-    content:
-      "Working with Sailwayz has been a transformative experience for R1SE Insurance. Their expertise in Salesforce CRM has streamlined our client management processes and enhanced our ability to deliver personalized service. With Sailwayz’s support, we’ve been able to maintain transparent communication and provide our clients with the clarity they need to make informed insurance decisions. Their commitment to our long-term success and continuous support have been pivotal in helping us navigate the complexities of the insurance industry and meet the evolving needs of our clients",
-  },
-  {
-    name: "John Wick",
-    role: "CEOee",
+    name: "Sam W",
+    role: "Account Manager at V1CECONNECTIONS",
     company: "/img/home/v1ce.svg",
-    image: "/img/home/t-1.svg",
+    image: "/img/home/t-1.jpg",
     content:
-      "Partnering with Sailwayz has been a game-changer for us at V1CE. Their expertise in implementing Salesforce CRM solutions has significantly streamlined our operations and enhanced our ability to connect and engage with our clients. Thanks to Sailwayz, we’ve been able to leverage our NFC technology more effectively, resulting in increased sales and a more memorable customer experience. Their personalized approach and continuous support have been invaluable to our growth and success.",
+      "Sailwayz has been a game-changer for our business. Their team took the time to fully understand our Salesforce needs and delivered a tailored solution that has greatly improved our sales processes. The implementation was seamless, and their ongoing support has been outstanding. Thanks to Sailwayz, we’ve seen enhanced efficiency in managing client relationships and tracking our performance. I would highly recommend their services to any company looking to get the most out of Salesforce.",
   },
   {
-    name: "Darrell Steward",
-    role: "CEO, ABC Company",
-    company: "/img/home/next.svg",
-    image: "/img/home/t-3.svg",
-    content:
-      "Sailwayz has been instrumental in revolutionizing our customer relationship management at NXT Card. Their implementation of Salesforce CRM has allowed us to enhance our customer interactions, streamline our processes, and manage our custom card designs more efficiently. Thanks to Sailwayz, we’ve been able to offer a seamless and personalized experience to our clients, from designing their custom metal cards to delivering them promptly. Their expertise and dedicated support have been key in driving our growth and ensuring our customers receive the best possible service.",
-  },
-  {
-    name: "Annette Black",
-    role: "CEO, ABC Company",
-    company: "/img/home/karcher.svg",
-    image: "/img/home/t-4.svg",
-    content:
-      "Sailwayz has been a game-changer for Karshare. Their Salesforce CRM solutions have seamlessly integrated with our platform, helping us manage our vehicle rental operations more efficiently. The personalized approach from their team has improved our customer interactions, streamlined our processes, and significantly boosted our growth. We particularly appreciate their understanding of our unique needs in the UK region. Thanks to Sailwayz, we've been able to enhance our service offerings and deliver an exceptional experience to our customers. We highly recommend Sailwayz for any business looking to optimize their CRM strategy.",
-  },
-  {
-    name: "Courtney Henry",
-    role: "CEO, CNRVT",
+    name: "Dennis Y",
+    role: "Founder of CNVRT",
     company: "/img/home/cnrvt.svg",
-    image: "/img/home/t-5.svg",
+    image: "/img/home/t-2.jpg",
     content:
-      "Collaborating with Sailwayz has been a transformative experience for CNRVT. Their implementation of Salesforce CRM has revolutionized our lead generation processes, allowing us to efficiently manage and nurture our client relationships. With Sailwayz’s expert guidance and support, we’ve been able to scale our operations and deliver high-quality leads to our clients in the legal and financial sectors. Their commitment to excellence and personalized approach have been invaluable in helping us achieve remarkable growth and success.",
+      "Our experience with Sailwayz has been nothing short of exceptional. Their team's deep understanding of Salesforce has completely transformed the way we manage our lead generation processes. From customising the CRM to fit our unique business model to offering expert advice at every step, Sailwayz has been an invaluable partner. Their solutions have streamlined our operations, making it easier to track leads and boost overall efficiency. We highly recommend Sailwayz to any business looking to optimise their Salesforce strategy.",
+  },
+  {
+    name: "Daniel P",
+    role: "Founder of R1SE Insurance",
+    company: "/img/home/r1se.svg",
+    image: "/img/home/t-3.jpg",
+    content:
+      "I can't express how impressed I am with Sailwayz's services. Their expertise in Salesforce consulting has been invaluable for our growth at R1SE. The team's ability to understand our unique needs and provide tailored solutions has truly elevated our operations. Their support throughout the implementation process was exceptional, and the results have far exceeded our expectations. If you're looking for a partner to optimise your sales processes and drive business growth, I wholeheartedly recommend Sailwayz.",
+  },
+  {
+    name: "Luke S",
+    role: "Founder of Pinnacle LC lifestyle Ltd",
+    company: "/img/home/karcher.svg",
+    image: "/img/home/t-4.jpg",
+    content:
+      "Managing and scaling a personalized, in-home fitness business requires precision—and Sailwayz has been instrumental in helping us streamline operations through Salesforce CRM. Their tailored approach ensured our scheduling, client management, and reporting processes were seamless, giving us more time to focus on our clients' wellness journeys. The team at Sailwayz worked closely with us to understand our specific needs, delivering strategic solutions that enhanced both efficiency and growth. I highly recommend Sailwayz to any business looking to elevate their CRM and customer management capabilities.",
+  },
+  {
+    name: "Akshay K",
+    role: "Founder of Synx Limited",
+    company: "/img/home/next.svg",
+    image: "/img/home/t-5.jpg",
+    content:
+      "At Synx, we understand the importance of leveraging the right tools to scale—and Sailwayz made that journey effortless for us. Their Salesforce expertise didn’t just optimize our processes; it empowered our team to work smarter and more efficiently. From smooth data migration to customized CRM solutions, every interaction with their team reflected professionalism and strategic insight. Thanks to Sailwayz, we’ve been able to unlock new growth opportunities, and I couldn’t recommend them more for any business seeking to maximize their CRM potential.",
   },
 ];
 
@@ -102,14 +102,14 @@ const Testimonials = () => {
             {testimonials.map((testimonial, index) => (
               <div key={index} className="outline-none">
                 <div className="lg:flex lg:items-start gap-[94px] sm:ml-[45px] sm:mr-[38px] sm:px-[30px]">
-                  <div className="max-lg:flex max-lg:justify-center max-sm:w-auto max-sm:h-[219px]">
+                  <div className="max-lg:flex max-lg:justify-center">
                     <Image
                       src={testimonial.image}
                       alt={testimonial.name}
                       width={322}
                       height={364}
                       loading="lazy"
-                      className="rounded-[32px] lg:pl-[20px] w-auto h-auto"
+                      className="rounded-[32px] lg:ml-[20px] w-[302px] h-[322px] object-cover"
                     />
                   </div>
                   <div className="flex-1">

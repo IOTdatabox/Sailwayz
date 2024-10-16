@@ -19,7 +19,7 @@ const ConsultingPartners = () => {
           <div className="sm:px-[60px] lg:px-[130px] xl:px-[170px]">
             <div className="grid grid-cols-3 sm:grid-cols-7 gap-[15px] xl:gap-[22px] mb-[15px]">
               <Image
-                src="/img/home/consulting-1.svg"
+                src="/img/home/consulting-1.png"
                 alt="consulting 1"
                 width={120}
                 height={117}
@@ -27,7 +27,7 @@ const ConsultingPartners = () => {
                 className="w-[120px] h-auto xl:h-[117px]"
               />
               <Image
-                src="/img/home/consulting-2.svg"
+                src="/img/home/consulting-2.png"
                 alt="consulting 2"
                 width={120}
                 height={117}
@@ -35,7 +35,7 @@ const ConsultingPartners = () => {
                 className="w-[120px] h-auto xl:h-[117px]"
               />
               <Image
-                src="/img/home/consulting-3.svg"
+                src="/img/home/consulting-3.png"
                 alt="consulting 3"
                 width={120}
                 height={117}
@@ -43,7 +43,7 @@ const ConsultingPartners = () => {
                 className="w-[120px] h-auto xl:h-[117px]"
               />
               <Image
-                src="/img/home/consulting-4.svg"
+                src="/img/home/consulting-4.png"
                 alt="consulting 4"
                 width={120}
                 height={117}
@@ -51,7 +51,7 @@ const ConsultingPartners = () => {
                 className="w-[120px] h-auto xl:h-[117px]"
               />
               <Image
-                src="/img/home/consulting-5.svg"
+                src="/img/home/consulting-5.png"
                 alt="consulting 5"
                 width={120}
                 height={117}
@@ -59,7 +59,7 @@ const ConsultingPartners = () => {
                 className="w-[120px] h-auto xl:h-[117px]"
               />
               <Image
-                src="/img/home/consulting-6.svg"
+                src="/img/home/consulting-6.png"
                 alt="consulting 6"
                 width={120}
                 height={117}
@@ -67,7 +67,7 @@ const ConsultingPartners = () => {
                 className="w-[120px] h-auto xl:h-[117px]"
               />
               <Image
-                src="/img/home/consulting-7.svg"
+                src="/img/home/consulting-7.png"
                 alt="consulting 7"
                 width={120}
                 height={117}
@@ -77,7 +77,7 @@ const ConsultingPartners = () => {
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-6 gap-[15px] xl:gap-[22px] sm:px-[44px] lg:px-[50px] xl:px-[71px]">
               <Image
-                src="/img/home/consulting-8.svg"
+                src="/img/home/consulting-8.png"
                 alt="consulting 8"
                 width={120}
                 height={117}
@@ -85,7 +85,7 @@ const ConsultingPartners = () => {
                 className="w-[120px] h-auto xl:h-[117px]"
               />
               <Image
-                src="/img/home/consulting-9.svg"
+                src="/img/home/consulting-9.png"
                 alt="consulting 9"
                 width={120}
                 height={117}
@@ -93,7 +93,7 @@ const ConsultingPartners = () => {
                 className="w-[120px] h-auto xl:h-[117px]"
               />
               <Image
-                src="/img/home/consulting-10.svg"
+                src="/img/home/consulting-10.png"
                 alt="consulting 10"
                 width={120}
                 height={117}
@@ -101,7 +101,7 @@ const ConsultingPartners = () => {
                 className="w-[120px] h-auto xl:h-[117px]"
               />
               <Image
-                src="/img/home/consulting-11.svg"
+                src="/img/home/consulting-11.png"
                 alt="consulting 11"
                 width={120}
                 height={117}
@@ -109,7 +109,7 @@ const ConsultingPartners = () => {
                 className="w-[120px] h-auto xl:h-[117px]"
               />
               <Image
-                src="/img/home/consulting-12.svg"
+                src="/img/home/consulting-12.png"
                 alt="consulting 12"
                 width={120}
                 height={117}
@@ -117,7 +117,7 @@ const ConsultingPartners = () => {
                 className="w-[120px] h-auto xl:h-[117px]"
               />
               <Image
-                src="/img/home/consulting-13.svg"
+                src="/img/home/consulting-13.png"
                 alt="consulting 13"
                 width={120}
                 height={117}

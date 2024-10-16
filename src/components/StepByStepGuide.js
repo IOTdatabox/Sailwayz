@@ -70,7 +70,7 @@ const StepByStepGuide = () => {
             </div>
             <div className="max-sm:order-2 mb-[40px] md:mb-0 lg:mb-[40px]">
               <Image
-                src="/img/home/step-1.svg"
+                src="/img/home/step-1.png"
                 alt="Step 1"
                 width={328}
                 height={203}
@@ -80,7 +80,7 @@ const StepByStepGuide = () => {
             </div>
             <div className="max-sm:order-4 mb-[40px] sm:mb-[30px] lg:mb-[40px]">
               <Image
-                src="/img/home/step-2.svg"
+                src="/img/home/step-2.png"
                 alt="Step 2"
                 width={328}
                 height={203}
@@ -130,7 +130,7 @@ const StepByStepGuide = () => {
             </div>
             <div className="max-sm:order-6 mb-[30px] lg:mb-[40px]">
               <Image
-                src="/img/home/step-3.svg"
+                src="/img/home/step-3.png"
                 alt="Step 3"
                 width={314}
                 height={186}
@@ -140,7 +140,7 @@ const StepByStepGuide = () => {
             </div>
             <div className="max-sm:order-8 mb-[30px] lg:mb-[40px]">
               <Image
-                src="/img/home/step-4.svg"
+                src="/img/home/step-4.png"
                 alt="Step 4"
                 width={314}
                 height={245}

@@ -8,7 +8,7 @@ const ClientBackground = () => {
         <div className="flex flex-col lg:flex-row lg:items-center gap-[16px] sm:gap-[30px] lg:gap-[60px]">
           <div className="w-full lg:w-[58%] ">
             <Image
-              src="/img/case/client-background-3.svg"
+              src="/img/case/client-background-3.png"
               alt="client background"
               width={727}
               height={490}

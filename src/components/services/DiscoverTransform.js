@@ -17,14 +17,16 @@ const DiscoverTransform = () => {
 
   const DiscoverItem = ({ src, title, content }) => (
     <div className="bg-[#F5F7F8] sm:bg-white rounded-[8px] p-[16px] sm:p-[25px] lg:p-[20px] xl:p-[25px] transition-transform duration-300 ease-in-out transform hover:scale-[1.03]">
-      <Image
-        src={src}
-        alt="salesforce cloud"
-        width={62}
-        height={62}
-        loading="lazy"
-        className="w-[42px] sm:w-[62px] lg:w-[55px] xl:w-[62px] h-[42px] sm:h-[62px] lg:h-[55px] xl:h-[62px] mb-[10px] lg:mb-[8px] xl:mb-[20px]"
-      />
+      <div className="w-[42px] sm:w-[62px] lg:w-[55px] xl:w-[62px] h-[42px] sm:h-[62px] lg:h-[55px] xl:h-[62px] mb-[10px] lg:mb-[8px] xl:mb-[20px] bg-secondaryColor rounded-full flex items-center justify-center">
+        <Image
+          src={src}
+          alt="salesforce cloud"
+          width={27}
+          height={27}
+          loading="lazy"
+          className="w-[18.38px] sm:w-[27.13px] h-[18.38px] sm:h-[27.13px]"
+        />
+      </div>
       <h4 className="text-[20px] leading-[32px] font-normal text-primaryColor mb-[10px] lg:mb-[8px] xl:mb-[10px]">
         {title}
       </h4>
@@ -40,7 +42,7 @@ const DiscoverTransform = () => {
           <div className="lg:flex max-xl:items-center gap-[5%]">
             <div className="w-full lg:w-[50%] xl:w-[60%]">
               <Image
-                src="/img/services/service-t.svg"
+                src="/img/services/service-t.png"
                 alt="Team working together"
                 width={753}
                 height={370}
@@ -72,7 +74,7 @@ const DiscoverTransform = () => {
             </div>
           </div>
           <div className="py-[20px] lg:py-[50px]">
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[12px] sm:gap-[30px] lg:gap-[15px] xl:gap-[30px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[12px] sm:gap-[30px] lg:gap-[15px] xl:gap-[30px]">
               <DiscoverItem
                 src="/img/services/card-1.svg"
                 title="Uncover New Opportunities"

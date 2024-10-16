@@ -17,7 +17,7 @@ const HeroAbout = () => {
   return (
     <div className="container max-w-[1440px] px-5 py-1 sm:py-5 mx-auto lg:px-10 xl:px-[63px] mt-[16px]">
       <div className="flex gap-0 lg:gap-[30px] mb-[50px] sm:mb-[116px]">
-        <div className="w-full sm:w-[75%] lg:w-[60%] xl:w-[45%]">
+        <div className="w-full lg:w-[60%] xl:w-[45%]">
           <h1 className="futura-bold font-bold text-[24px] sm:text-[32px] lg:text-[36px] leading-[32px] sm:leading-[40px] lg:leading-[46px] text-white mb-[30px]">
             Fostering Global Business Empowerment
           </h1>
@@ -42,7 +42,7 @@ const HeroAbout = () => {
             </a>
           </div>
         </div>
-        <div className="max-sm:hidden sm:w-[25%] lg:w-[40%] xl:w-[55%]"></div>
+        <div className="max-sm:hidden lg:w-[40%] xl:w-[55%]"></div>
       </div>
     </div>
   );

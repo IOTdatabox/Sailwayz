@@ -21,13 +21,13 @@ const Results = () => {
         <div className="mt-[30px]">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-[30px]">
             <div>
-              <div className="overflow-hidden rounded-full">
+              <div className="overflow-hidden rounded-[50%] h-[170px] sm:h-[300px] lg:h-[215px] xl:h-[300px]">
                 <Image
-                  src="/img/case/r-1.svg"
+                  src="/img/case/r-1.png"
                   alt="Results"
                   width={305}
                   height={305}
-                  className="w-full h-full transition-transform duration-300 ease-out rounded-full hover:scale-110"
+                  className="w-full h-full transition-transform duration-300 ease-out rounded-[50%] hover:scale-110"
                   loading="lazy"
                 />
               </div>
@@ -36,13 +36,13 @@ const Results = () => {
               </p>
             </div>
             <div>
-              <div className="overflow-hidden rounded-full">
+              <div className="overflow-hidden rounded-[50%] h-[170px] sm:h-[300px] lg:h-[215px] xl:h-[300px]">
                 <Image
-                  src="/img/case/r-2.svg"
+                  src="/img/case/r-2.png"
                   alt="Results"
                   width={305}
                   height={305}
-                  className="w-full h-full transition-transform duration-300 ease-out rounded-full hover:scale-110"
+                  className="w-full h-full transition-transform duration-300 ease-out rounded-[50%] hover:scale-110"
                   loading="lazy"
                 />
               </div>
@@ -51,13 +51,13 @@ const Results = () => {
               </p>
             </div>
             <div>
-              <div className="overflow-hidden rounded-full">
+              <div className="overflow-hidden rounded-[50%] h-[170px] sm:h-[300px] lg:h-[215px] xl:h-[300px]">
                 <Image
-                  src="/img/case/r-3.svg"
+                  src="/img/case/r-3.png"
                   alt="Results"
                   width={305}
                   height={305}
-                  className="w-full h-full transition-transform duration-300 ease-out rounded-full hover:scale-110"
+                  className="w-full h-full transition-transform duration-300 ease-out rounded-[50%] hover:scale-110"
                   loading="lazy"
                 />
               </div>
@@ -66,13 +66,13 @@ const Results = () => {
               </p>
             </div>
             <div>
-              <div className="overflow-hidden rounded-full">
+              <div className="overflow-hidden rounded-[50%] h-[170px] sm:h-[300px] lg:h-[215px] xl:h-[300px]">
                 <Image
-                  src="/img/case/r-4.svg"
+                  src="/img/case/r-4.png"
                   alt="Results"
                   width={305}
                   height={305}
-                  className="w-full h-full transition-transform duration-300 ease-out rounded-full hover:scale-110"
+                  className="w-full h-full transition-transform duration-300 ease-out rounded-[50%] hover:scale-110"
                   loading="lazy"
                 />
               </div>

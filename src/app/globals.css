@@ -97,7 +97,7 @@ img {
 
 .hero-image {
   background-position: 100% 0vh;
-  background-size: 100% 103%;
+  background-size: 100% 95%;
 }
 
 /* Service */
@@ -245,7 +245,7 @@ img {
   /* Your CSS for MacBook Air and similar laptops */
   .hero-image {
     background-position: 100% 0vh;
-    background-size: auto 103%;
+    background-size: auto 95%;
   }
 }
 
@@ -263,10 +263,11 @@ img {
 
 /* iPad Mini, iPad 1/2/Air (768x1024) */
 @media only screen and (max-width: 768px) and (max-height: 1024px) {
-  /* Your CSS for iPad Mini, iPad 1, 2, Air */
   .hero-image {
-    background-size: cover;
-  }
+    background-position: 100% 0vh;
+    background-size: auto 94%;
+}
+  /* Your CSS for iPad Mini, iPad 1, 2, Air */
   .home-transform {
     background-position: 25%;
     height: 1106px;
@@ -274,9 +275,7 @@ img {
 }
 @media only screen and (max-width: 674px) and (max-height: 532px) {
   /* Your CSS for iPad Mini, iPad 1, 2, Air */
-  .hero-image {
-    background-size: cover;
-  }
+
   .home-transform {
     background-position: 25%;
   }
@@ -285,17 +284,12 @@ img {
 /* iPad Pro 10.5" (834x1112) */
 @media only screen and (max-width: 834px) and (max-height: 1112px) {
   /* Your CSS for iPad Pro 10.5" */
-  .hero-image {
-    background-size: cover;
-  }
 }
 
 /* iPad Pro 12.9" (1024x1366) */
 @media only screen and (max-width: 1024px) and (max-height: 1366px) {
   /* Your CSS for iPad Pro 12.9" */
-  .hero-image {
-    background-size: cover;
-  }
+  
 }
 
 /* Mobile Devices */
@@ -368,11 +362,11 @@ img {
 @media only screen and (max-width: 425px) and (max-height: 696px) {
   .hero-image {
     background-position: 100% 0vh;
-    background-size: 118% 92.1%;
+    background-size: 100% 90%;
   }
   .home-transform {
-    translate: 0 125px;
-    height: 499px;
+    translate: 0 92px;
+    height: 468px;
   }
   .home-transform-sm {
     padding-top: 100px;

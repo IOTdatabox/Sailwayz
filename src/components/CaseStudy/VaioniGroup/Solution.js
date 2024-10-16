@@ -16,7 +16,7 @@ const Solution = () => {
   };
 
   return (
-    <div className="w-full bg-[url('/img/case/solution-1.svg')] bg-cover bg-no-repeat max-lg:bg-center">
+    <div className="w-full bg-[url('/img/case/solution-1.png')] bg-cover bg-no-repeat max-lg:bg-center">
       <div className="container max-w-[1440px] px-5 mx-auto pt-[100px] lg:pt-[194px] pb-[100px] lg:px-10 xl:px-[63px]">
         <div>
           <Image

@@ -17,12 +17,12 @@ const Responsive = () => {
       </h1>
       <div className="w-full rounded-[16px] mb-[10px]">
         <Image
-          src="/img/home/responsive-1.svg"
+          src="/img/home/case-studies-1.png"
           alt="Responsive 1"
           width={335}
           height={197.63}
           loading="lazy"
-          className="w-full h-auto"
+          className="w-full h-auto rounded-[16px]"
         />
       </div>
       <h2 className="text-[20px] leading-[28px] text-primaryColor font-bold futura-bold mb-[12px]">
@@ -40,12 +40,12 @@ const Responsive = () => {
       </Link>
       <div className="w-full rounded-[16px] mb-[10px] mt-[31px]">
         <Image
-          src="/img/home/responsive-2.svg"
+          src="/img/home/case-studies-2.png"
           alt="Responsive 2"
           width={335}
           height={197.63}
           loading="lazy"
-          className="w-full h-auto"
+          className="w-full h-auto rounded-[16px]"
         />
       </div>
       <h2 className="text-[20px] leading-[28px] text-primaryColor font-bold futura-bold mb-[12px]">
@@ -66,12 +66,12 @@ const Responsive = () => {
       </Link>
       <div className="w-full rounded-[16px] mb-[10px] mt-[31px]">
         <Image
-          src="/img/home/responsive-3.svg"
+          src="/img/home/case-studies-3.png"
           alt="Responsive 3"
           width={335}
           height={198}
           loading="lazy"
-          className="w-full h-auto"
+          className="w-full h-auto rounded-[16px]"
         />
       </div>
       <h2 className="text-[20px] leading-[28px] text-primaryColor font-bold futura-bold mb-[12px]">
