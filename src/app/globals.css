@@ -261,12 +261,15 @@ img {
 
 /* Tablets */
 
-/* iPad Mini, iPad 1/2/Air (768x1024) */
-@media only screen and (max-width: 768px) and (max-height: 1024px) {
+@media only screen and (max-width: 674px) and (min-width: 426px) {
   .hero-image {
     background-position: 100% 0vh;
     background-size: auto 94%;
 }
+}
+
+/* iPad Mini, iPad 1/2/Air (768x1024) */
+@media only screen and (max-width: 768px) and (max-height: 1024px) {
   /* Your CSS for iPad Mini, iPad 1, 2, Air */
   .home-transform {
     background-position: 25%;
@@ -299,7 +302,7 @@ img {
   /* Your CSS for Google Pixel 2/3 XL */
   .hero-image {
     background-position: 100% 0vh;
-    background-size: auto 127%;
+    background-size: 100% 127% !important;
     height: 980px !important;
   }
 }
@@ -309,7 +312,7 @@ img {
   /* Your CSS for Google Pixel 2/3 */
   .hero-image {
     background-position: 100% 0vh;
-    background-size: auto 127%;
+    background-size: 100% 127%;
     height: 980px !important;
   }
 }
@@ -319,7 +322,7 @@ img {
   /* Your CSS for Samsung Galaxy S9/S9+ */
   .hero-image {
     background-position: 100% 0vh;
-    background-size: auto 127%;
+    background-size: 100% 127%;
     height: 980px !important;
   }
 }
@@ -329,7 +332,7 @@ img {
   /* Your CSS for iPhone XR, XS Max, 11 Pro Max */
   .hero-image {
     background-position: 100% 0vh;
-    background-size: auto 127%;
+    background-size: 100% 127%;
     height: 940px;
   }
 }
@@ -339,7 +342,7 @@ img {
   /* Your CSS for iPhone X, XS, 11 Pro */
   .hero-image {
     background-position: 100% 0vh;
-    background-size: auto 127%;
+    background-size: 100% 127%;
     height: 980px !important;
   }
 }
