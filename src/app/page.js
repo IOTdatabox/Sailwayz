@@ -31,13 +31,13 @@ export default function Home() {
           as="image"
         />
       </Head>
-      <div className="w-full bg-[url('/img/home/hero-background-mobile.png')] sm:bg-[url('/img/home/hero-background.png')] bg-cover bg-no-repeat relative z-[-1] padding-bottom-bg max-lg:bg-center">
+      <div className="w-full bg-[url('/img/home/hero-background-mobile.png')] sm:bg-[url('/img/home/hero-background.png')] bg-cover bg-no-repeat relative z-[99] padding-bottom-bg max-xl:bg-[100%_50%]">
         <Header />
         <Hero />
         <Partnerships />
         <Innovative />
       </div>
-      <div className="h-[946px] home-transform">
+      <div className="h-[946px] home-transform relative z-[99]">
         <div className="w-full bg-[url('/img/home/transform-sm.png')] lg:bg-[url('/img/home/transform-background.png')] bg-cover bg-no-repeat bg-position sm:background-center">
           <CardLayout />
           <Transform />
