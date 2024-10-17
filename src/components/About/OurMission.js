@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { useRouter } from "next/navigation";
+import Badge from "../Badge";
 
 const OurMission = () => {
   const router = useRouter();
@@ -38,14 +39,15 @@ const OurMission = () => {
           </div>
         </div>
         <div className="w-full lg:w-[40%] xl:w-[42%]">
-          <Image
-            src="/img/home/transform-logo-black.svg"
-            alt="Transform logo"
-            width={160}
-            height={26}
-            loading="lazy"
-            className="w-[112.47px] sm:w-[160.47px] lg:w-[150px] xl:w-[160.47px] h-[18px] sm:h-[26px] lg:h-[24px] xl:h-[26px] mb-[10px]"
-          />
+          <div className="mb-[10px]">
+            <Badge
+              text="TRANSFORM"
+              bgColor="bg-morningMist"
+              textColor="text-primaryColor"
+              src="/img/home/cloud-black.svg"
+              font="futura-boldLT"
+            />
+          </div>
           <h2 className="futura-bold font-bold text-primaryColor text-[20px] sm:text-[36px] lg:text-[24px] xl:text-[36px] leading-[28px] sm:leading-[46px] lg:leading-[32px] xl:leading-[46px] mb-[20px] lg:mb-[15px] xl:mb-[20px]">
             Our Mission: Strengthening Enterprises through Salesforce CRM
           </h2>

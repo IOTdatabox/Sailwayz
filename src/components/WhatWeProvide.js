@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Badge from "./Badge";
 
 const WhatWeProvide = () => {
   const expertises = [
@@ -33,14 +34,15 @@ const WhatWeProvide = () => {
     <div className="w-full bg-lightGrey">
       <div className="container max-w-[1440px] px-5 mx-auto py-[40px] sm:py-[100px] lg:px-10 xl:px-[63px]">
         <div className="flex flex-col items-center w-full">
-          <Image
-            src="/img/home/what-we-provide-logo.svg"
-            alt="What We Provide"
-            width={168}
-            height={26}
-            loading="lazy"
-            className="w-[143.47px] sm:w-[175px] xl:w-[218.47px] h-[18px] sm:h-[21px] xl:h-[26px] mb-[10px]"
-          />
+          <div className="mb-[10px]">
+            <Badge
+              text="WHAT WE PROVIDE"
+              src="/img/home/cloud-white.svg"
+              bgColor="bg-secondaryColor"
+              textColor="text-morningMist"
+              font="futura-bold"
+            />
+          </div>
           <h2 className="futura-bold text-primaryColor text-[24px] sm:text-[32px] lg:text-[36px] leading-[32px] sm:leading-[43px] lg:leading-[46px] font-bold mb-[10px]">
             Our Expertise
           </h2>

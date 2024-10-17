@@ -1,3 +1,4 @@
+import Badge from "@/components/Badge";
 import Image from "next/image";
 import React from "react";
 
@@ -6,22 +7,15 @@ const Results = () => {
     <div className="w-full bg-[url('/img/case/results-bg-small.png')] sm:bg-[url('/img/case/results-bg.png')] bg-cover bg-no-repeat bg-[0%_12%] sm:bg-center xl:bg-[0%_0%]">
       <div className="container max-w-[1440px] px-5 mx-auto py-[32px] sm:py-[50px] lg:py-[100px] lg:px-10 xl:px-[63px]">
         <div className="w-full sm:w-[420px] xl:w-[529px] h-auto ml-2 sm:ml-auto">
-          <Image
-            src="/img/case/results-2.svg"
-            alt="Results logo"
-            width={122}
-            height={26}
-            loading="lazy"
-            className="hidden sm:block w-[122.47px] h-[26px] mb-[10px]"
-          />
-          <Image
-            src="/img/case/results-small.svg"
-            alt="results logo"
-            width={94}
-            height={26}
-            loading="lazy"
-            className="block sm:hidden w-[94.47px] h-[26px] mb-[10px]"
-          />
+          <div className="mb-[10px]">
+            <Badge
+              text="RESULTS"
+              src="/img/home/cloud-white.svg"
+              bgColor="bg-secondaryColor"
+              textColor="text-lightGrey"
+              font="futura-bold"
+            />
+          </div>
           <h2 className="futura-bold font-bold text-[20px] sm:text-[32px] lg:text-[36px] leading-[28px] sm:leading-[40px] lg:leading-[46px] text-white mb-[10px]">
             Results
           </h2>

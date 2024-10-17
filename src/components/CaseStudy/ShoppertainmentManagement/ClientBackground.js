@@ -1,3 +1,4 @@
+import Badge from "@/components/Badge";
 import Image from "next/image";
 import React from "react";
 
@@ -18,13 +19,12 @@ const ClientBackground = () => {
           </div>
           <div className="w-full lg:w-[42%]">
             <div className="mb-[10px]">
-              <Image
-                src="/img/case/shopp-group.svg"
-                alt="Case study vision"
-                width={183}
-                height={26}
-                loading="lazy"
-                className="w-[127.47px] sm:w-[183.27px] h-[22px] sm:h-[26px]"
+              <Badge
+                text="SHOPP GROUP"
+                bgColor="bg-morningMist"
+                textColor="text-primaryColor"
+                src="/img/home/cloud-black.svg"
+                font="futura-boldLT"
               />
             </div>
             <h2 className="text-[24px] sm:text-[32px] lg:text-[36px] leading-[32px] sm:leading-[40px] lg:leading-[46px] text-primaryColor futura-bold font-bold mb-[16px] sm:mb-[20px]">

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { useRouter } from "next/navigation";
+import Badge from "./Badge";
 
 const Transform = () => {
   const router = useRouter();
@@ -17,17 +18,18 @@ const Transform = () => {
 
   return (
     <div className="container max-w-[1440px] px-5 pt-[70px] md:pt-5 pb-[50px] lg:pb-[100px] mx-auto lg:px-10 xl:px-[63px] transform-padding">
-      <div className="sm:mt-[745px]">
+      <div className="sm:mt-[410px] lg:mt-[570px]">
         <div className="grid grid-cols-1 sm:grid-cols-12 gap-0 xl:gap-3 mb-[20px] sm:mb-[40px]">
           <div className="sm:col-span-5 lg:col-span-4 xl:col-span-3">
-            <Image
-              src="/img/home/transform-logo.svg"
-              alt="Transform-logo"
-              width={160}
-              height={26}
-              loading="lazy"
-              className="w-[116.47px] sm:w-[138px] xl:w-[160.47px] h-[22px] xl:h-[26px] mb-[12px]"
-            />
+            <div className="mb-[12px]">
+              <Badge
+                text="TRANSFORM"
+                src="/img/home/cloud-white.svg"
+                bgColor="bg-secondaryColor"
+                textColor="text-morningMist"
+                font="futura-bold"
+              />
+            </div>
             <h4 className="text-[20px] xl:text-[24px] leading-[28px] sm:leading-[32px] xl:leading-[38px] font-bold futura-bold text-white max-sm:mb-[20px]">
               Maximize Your Capabilities with Salesforce CRM
             </h4>

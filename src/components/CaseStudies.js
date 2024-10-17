@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import Badge from "./Badge";
 
 const caseStudies = [
   {
@@ -47,14 +48,15 @@ const CaseStudies = () => {
     <div className="hidden sm:block w-full bg-[#071224]" id="caseStudies">
       <div className="container max-w-[1440px] px-5 mx-auto py-[50px] sm:py-[100px] lg:px-10 xl:px-[63px]">
         <div className="flex flex-col items-center w-full mb-[40px]">
-          <Image
-            src="/img/home/case-studies-logo.svg"
-            alt="case studies"
-            width={168}
-            height={26}
-            loading="lazy"
-            className="w-[168.47px] h-[26px] mb-[10px]"
-          />
+          <div className="mb-[10px]">
+            <Badge
+              text="CASE STUDIES"
+              bgColor="bg-secondaryColor"
+              textColor="text-morningMist"
+              src="/img/home/cloud-white.svg"
+              font="futura-bold"
+            />
+          </div>
           <h2 className="futura-bold text-white text-[32px] lg:text-[36px] leading-[43px] lg:leading-[46px] font-bold mb-[40px]">
             Learn about Sailways&apos; Salesforce victories.
           </h2>

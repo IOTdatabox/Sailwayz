@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Badge from "../Badge";
 
 const FocusSectors = () => {
   return (
@@ -7,14 +8,15 @@ const FocusSectors = () => {
       <div className="container max-w-[1440px] px-5 py-0 sm:py-5 mx-auto mt-[40px] lg:mt-[90px] lg:px-10 xl:px-[63px]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-[30px]">
           <div className="col-span-6 xl:col-span-3">
-            <Image
-              src="/img/home/focus-sector-logo.svg"
-              alt="Transform Logo"
-              width={186}
-              height={26}
-              loading="lazy"
-              className="mb-[10px]"
-            />
+            <div className="mb-[10px]">
+              <Badge
+                text="FOCUS SECTORS"
+                bgColor="bg-morningMist"
+                textColor="text-primaryColor"
+                src="/img/home/cloud-black.svg"
+                font="futura-boldLT"
+              />
+            </div>
             <h2 className="futura-bold font-bold text-[24px] sm:text-[32px] lg:text-[36px] leading-[32px] sm:leading-[46px] text-primaryColor mb-[20px]">
               Industries we serve
             </h2>

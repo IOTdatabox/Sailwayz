@@ -1,4 +1,5 @@
 "use client";
+import Badge from "@/components/Badge";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
@@ -19,14 +20,15 @@ const StepByStepGuide = () => {
     <div className="w-full bg-white">
       <div className="container max-w-[1440px] px-5 mx-auto py-[50px] sm:py-[100px] lg:px-10 xl:px-[63px]">
         <div className="w-full">
-          <Image
-            src="/img/home/step-by-step-logo.svg"
-            alt="Guide"
-            width={217}
-            height={26}
-            loading="lazy"
-            className="w-[145px] sm:w-[175px] lg:w-[201px] xl:w-[217.47px] h-[18px] sm:h-[20px] lg:h-[22px] xl:h-[26px] mx-auto mb-[10px]"
-          />
+          <div className="mb-[10px] flex justify-center">
+            <Badge
+              text="STEP-BY-STEP GUIDE"
+              bgColor="bg-morningMist"
+              textColor="text-primaryColor"
+              src="/img/home/cloud-black.svg"
+              font="futura-boldLT"
+            />
+          </div>
           <h1 className="futura-normal font-normal text-[24px] lg:text-[32px] xl:text-[36px] leading-[32px] lg:leading-[43px] xl:leading-[46px] text-center text-primaryColor mb-[40px] sm:mb-[45px] lg:mb-[50px]">
             Challenges Faced by the client
           </h1>

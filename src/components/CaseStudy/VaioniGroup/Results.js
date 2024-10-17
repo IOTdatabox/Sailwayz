@@ -1,3 +1,4 @@
+import Badge from "@/components/Badge";
 import Image from "next/image";
 import React from "react";
 
@@ -6,13 +7,12 @@ const Results = () => {
     <div className="bg-secondaryColor">
       <div className="container max-w-[1440px] px-5 mx-auto py-[50px] lg:py-[100px] lg:px-10 xl:px-[63px]">
         <div className="flex flex-col items-center">
-          <Image
-            src="/img/case/results.svg"
-            alt="Results"
-            width={122}
-            height={26}
-            loading="lazy"
-            className="w-[105.47] sm:w-[122.47px] h-[26px]"
+          <Badge
+            text="RESULTS"
+            src="/img/home/cloud-white.svg"
+            bgColor="bg-primaryColor"
+            textColor="text-morningMist"
+            font="futura-bold"
           />
           <h3 className="text-[36px] leading-[46px] text-white futura-bold font-bold mt-[12px]">
             Results

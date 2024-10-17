@@ -1,4 +1,5 @@
 "use client";
+import Badge from "@/components/Badge";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
@@ -19,21 +20,12 @@ const Solution = () => {
     <div className="w-full bg-[url('/img/case/solution-3-small.png')] sm:bg-[url('/img/case/solution-3.png')] bg-cover bg-no-repeat bg-[0%_0%] sm:bg-center lg:bg-[0%_0%]">
       <div className="container max-w-[1440px] px-5 mx-auto pt-[50px] sm:pt-[100px] lg:pt-[358px] pb-[50px] sm:pb-[100px] lg:px-10 xl:px-[63px]">
         <div>
-          <Image
-            src="/img/home/transform-logo.svg"
-            alt="Transform logo"
-            width={140}
-            height={26}
-            loading="lazy"
-            className="hidden sm:block w-[140.47px] h-[26px]"
-          />
-          <Image
-            src="/img/case/solution-logo.svg"
-            alt="Solution logo"
-            width={105}
-            height={26}
-            loading="lazy"
-            className="block sm:hidden w-[105.47px] h-[26px]"
+          <Badge
+            text="SOLUTION"
+            src="/img/home/cloud-white.svg"
+            bgColor="bg-secondaryColor"
+            textColor="text-morningMist"
+            font="futura-bold"
           />
           <h3 className="text-[36px] leading-[46px] futura-bold font-bold text-white mt-[12px]">
             Solution Provided by Sailwayz

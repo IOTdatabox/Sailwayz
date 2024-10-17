@@ -1,17 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Badge from "./Badge";
 
 const Responsive = () => {
   return (
     <div className="block sm:hidden bg-lightBlue w-full container px-5 py-[50px]">
-      <Image
-        src="/img/home/responsive-logo.svg"
-        alt="Responsive logo"
-        width={111}
-        height={18}
-        className="w-[111.47px] h-[18px] mb-[10px] mx-auto"
-      />
+      <div className="mb-[10px] flex justify-center">
+        <Badge
+          text="RESPONSIVE"
+          bgColor="bg-morningMist"
+          textColor="text-primaryColor"
+          src="/img/home/cloud-black.svg"
+          font="futura-boldLT"
+        />
+      </div>
       <h1 className="futura-bold font-bold text-[24px] leading-[32px] text-primaryColor text-center mb-[30px]">
         Learn about Sailways&apos; Salesforce victories.
       </h1>

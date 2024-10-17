@@ -1,27 +1,21 @@
 import Image from "next/image";
 import React from "react";
+import Badge from "../Badge";
 
 const ContactInformation = () => {
   return (
     <div className="w-full bg-morningMist">
       <div className="container max-w-[1440px] px-5 py-[40px] sm:py-[100px] mx-auto lg:px-10 xl:px-[63px]">
         <div className="flex flex-col items-start lg:items-center justify-center gap-[10px] mb-[20px] lg:mb-[50px]">
-          <Image
-            src="/img/contact/lets-talk-logo.svg"
-            alt="Let's talk"
-            width={134}
-            height={26}
-            loading="lazy"
-            className="hidden sm:block w-[134.47px] h-[26px]"
-          />
-          <Image
-            src="/img/contact/lets-talk-logo-small.svg"
-            alt="Let's talk"
-            width={101}
-            height={22}
-            loading="lazy"
-            className="block sm:hidden w-[101.47px] h-[22px]"
-          />
+          <div className="">
+            <Badge
+              text="LETS TALK"
+              bgColor="bg-white"
+              textColor="text-primaryColor"
+              src="/img/home/cloud-black.svg"
+              font="futura-boldLT"
+            />
+          </div>
           <h1 className="futura-bold font-bold text-primaryColor text-[24px] sm:text-[32px] lg:text-[36px] leading-[32px] sm:leading-[40px] lg:leading-[46px]">
             Contact information&apos;s
           </h1>

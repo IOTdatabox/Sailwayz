@@ -107,7 +107,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="mt-[40px] lg:mt-0">
-            <ul className="flex flex-col text-[#C0CFD6] text-[16px] lg:text-[17px] leading-[25px] gap-[13px] cursor-pointer">
+            <ul className="flex flex-col text-lightGrey text-[16px] lg:text-[17px] leading-[25px] gap-[13px] cursor-pointer">
               <li className="hover:text-primaryBlue">
                 <Link href={"/services"} aria-label="redirect to service page">
                   SALESFORCE SOLUTIONS

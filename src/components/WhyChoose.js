@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { useRouter } from "next/navigation";
+import Badge from "./Badge";
 
 const WhyChoose = () => {
   const router = useRouter();
@@ -21,22 +22,15 @@ const WhyChoose = () => {
         {/* why choose */}
         <div className="grid items-center grid-cols-1 lg:grid-cols-12 mb-[30px] sm:mb-[60px]">
           <div className="col-span-1 lg:col-span-5 mb-[30px] lg:mb-0">
-            <Image
-              src="/img/home/transform-logo-black.svg"
-              alt="Transform Logo"
-              width={160}
-              height={26}
-              loading="lazy"
-              className="hidden lg:block w-[160.47px] h-[26px] mb-[10px]"
-            />
-            <Image
-              src="/img/home/transform-logo-small.svg"
-              alt="Transform Logo"
-              width={160}
-              height={26}
-              loading="lazy"
-              className="block lg:hidden w-[116.47px] sm:w-[150px] h-[22px] sm:h-[26px] mb-[10px]"
-            />
+            <div className="mb-[10px]">
+              <Badge
+                text="TRANSFORM"
+                bgColor="bg-morningMist"
+                textColor="text-primaryColor"
+                src="/img/home/cloud-black.svg"
+                font="futura-boldLT"
+              />
+            </div>
             <h2 className="futura-bold font-bold text-[24px] sm:text-[32px] lg:text-[36px] leading-[32px] sm:leading-[46px] text-primaryColor mb-[20px]">
               Why Choose Sailways?
             </h2>
@@ -63,14 +57,15 @@ const WhyChoose = () => {
         {/* focus sectors */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-[30px]">
           <div className="col-span-6 xl:col-span-3">
-            <Image
-              src="/img/home/focus-sector-logo.svg"
-              alt="Transform Logo"
-              width={186}
-              height={26}
-              loading="lazy"
-              className="w-[132.47px] sm:w-[140px] lg:w-[186px] h-[22px] lg:h-[26px] mb-[10px]"
-            />
+            <div className="mb-[10px]">
+              <Badge
+                text="FOCUS SECTORS"
+                bgColor="bg-morningMist"
+                textColor="text-primaryColor"
+                src="/img/home/cloud-black.svg"
+                font="futura-boldLT"
+              />
+            </div>
             <h2 className="futura-bold font-bold text-[24px] sm:text-[32px] lg:text-[36px] leading-[32px] sm:leading-[46px] text-primaryColor mb-[20px]">
               Industries we serve
             </h2>

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { useRouter } from "next/navigation";
+import Badge from "../Badge";
 
 const DiscoverTransform = () => {
   const router = useRouter();
@@ -51,14 +52,13 @@ const DiscoverTransform = () => {
               />
             </div>
             <div className="w-full lg:w-[50%] xl:w-[40%] mt-6 lg:mt-0">
-              <div className="mb-3">
-                <Image
-                  src="/img/services/transform-s.svg"
-                  alt="transform"
-                  width={160}
-                  height={26}
-                  className="w-[116.47px] sm:w-[160.47px] h-[22px] sm:h-[26px]"
-                  loading="lazy"
+              <div className="mb-[12px]">
+                <Badge
+                  text="TRANSFORM"
+                  bgColor="bg-morningMist"
+                  textColor="text-primaryColor"
+                  src="/img/home/cloud-black.svg"
+                  font="futura-boldLT"
                 />
               </div>
               <h2 className="text-primaryColor text-[24px] xl:text-[36px] leading-[35px] xl:leading-[46px] font-bold ">

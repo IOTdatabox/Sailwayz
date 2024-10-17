@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
+import Badge from "./Badge";
 
 const testimonials = [
   {
@@ -84,13 +85,12 @@ const Testimonials = () => {
       <div className="container px-5 mx-auto py-[50px] sm:py-[100px] lg:px-10 xl:px-[63px] max-w-[1440px]">
         <div className="text-center mb-[20px] sm:mb-[50px]">
           <div className="flex justify-center mb-[10px]">
-            <Image
-              src="/img/home/t-frame.svg"
-              alt="Transform logo"
-              width={176}
-              height={26}
-              className="w-[176.47px] h-[26px]"
-              loading="lazy"
+            <Badge
+              text="TESTIMONIALS"
+              src="/img/home/cloud-white.svg"
+              bgColor="bg-secondaryColor"
+              textColor="text-morningMist"
+              font="futura-bold"
             />
           </div>
           <h2 className="text-[24px] sm:text-[36px] leading-[32px] md:leading-[46px] futura-bold font-bold">

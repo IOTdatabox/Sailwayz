@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Badge from "../Badge";
 
 const CustomizingSolutions = () => {
   return (
@@ -8,14 +9,15 @@ const CustomizingSolutions = () => {
         <div className="flex gap-0 mb-[30px] sm:mb-[58px]">
           <div className="hidden lg:block lg:w-[55%] xl:w-[57%]"></div>
           <div className="w-full lg:w-[45%] xl:w-[43%]">
-            <Image
-              src="/img/home/transform-logo.svg"
-              alt="transform logo"
-              width={160}
-              height={26}
-              loading="lazy"
-              className="w-[112.47px] sm:w-[160.47px] h-[18px] sm:h-[26px] mb-[12px]"
-            />
+            <div className="mb-[12px]">
+              <Badge
+                text="TRANSFORM"
+                src="/img/home/cloud-white.svg"
+                bgColor="bg-secondaryColor"
+                textColor="text-morningMist"
+                font="futura-bold"
+              />
+            </div>
             <h3 className="text-[20px] sm:text-[28px] leading-[28px] sm:leading-[38px] font-bold futura-bold text-white mb-[20px]">
               Customizing Solutions to Revolutionize Salesforce CRM
             </h3>

@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import Slider from "react-slick";
 import { useRouter } from "next/navigation";
+import Badge from "./Badge";
 
 const caseStudies = [
   {
@@ -59,14 +60,15 @@ const CaseStudiesMobile = () => {
       className="block sm:hidden container px-5 py-[50px] bg-[url('/img/home/case-studies-bg.svg')] bg-cover bg-no-repeat"
       id="caseStudies"
     >
-      <Image
-        src="/img/home/case-studies-logo-small.svg"
-        alt="Case Studies Logo"
-        width={120}
-        height={22}
-        loading="lazy"
-        className="w-[120px] h-[22px] mb-[10px]"
-      />
+      <div className="mb-[10px]">
+        <Badge
+          text="CASE STUDIES"
+          bgColor="bg-secondaryColor"
+          textColor="text-lightGrey"
+          src="/img/home/cloud-white.svg"
+          font="futura-bold"
+        />
+      </div>
       <div className="relative casestudy-slider mb-[30px]">
         <Slider {...settings}>
           {caseStudies.map((caseStudy, index) => (
