@@ -488,6 +488,25 @@ img {
 }
 }
 
+svg {
+  image-rendering: crisp-edges;
+  -webkit-image-rendering: pixelated;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+}
+
+.cloud-svg {
+  -webkit-backface-visibility: hidden;
+  image-rendering: crisp-edges;
+  -webkit-image-rendering: pixelated;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .cloud-svg {
+    -webkit-transform: translateZ(0);
+  }
+}
+
 @media only screen and (max-width: 360px) and (max-height: 682px) {
   .padding-bottom-bg {
     padding-bottom: 87%;

@@ -251,7 +251,7 @@ const Header = () => {
           {/* {/ Mobile Schedule Button /} */}
           <div className="mt-5">
             <a
-              className="bg-primaryBlue hover:bg-secondaryBlue transition-button px-[16px] py-[4px] rounded-[160px] text-[14px] text-white font-bold leading-[24px] futura-bold cursor-pointer"
+              className="bg-primaryBlue hover:bg-secondaryBlue transition-button px-[20px] py-[9px] rounded-[160px] text-[14px] text-white font-bold leading-[24px] futura-bold cursor-pointer"
               onClick={freeConsultationClick}
               aria-label="redirect to consultation form"
             >
