@@ -23,7 +23,7 @@ const Results = () => {
             <div>
               <div className="overflow-hidden rounded-[50%] h-[170px] sm:h-[300px] lg:h-[215px] xl:h-[300px]">
                 <Image
-                  src="/img/case/r-1.png"
+                  src="/img/case/r-1.svg"
                   alt="Results"
                   width={305}
                   height={305}
@@ -38,7 +38,7 @@ const Results = () => {
             <div>
               <div className="overflow-hidden rounded-[50%] h-[170px] sm:h-[300px] lg:h-[215px] xl:h-[300px]">
                 <Image
-                  src="/img/case/r-2.png"
+                  src="/img/case/r-2.svg"
                   alt="Results"
                   width={305}
                   height={305}
@@ -53,7 +53,7 @@ const Results = () => {
             <div>
               <div className="overflow-hidden rounded-[50%] h-[170px] sm:h-[300px] lg:h-[215px] xl:h-[300px]">
                 <Image
-                  src="/img/case/r-3.png"
+                  src="/img/case/r-3.svg"
                   alt="Results"
                   width={305}
                   height={305}
@@ -68,7 +68,7 @@ const Results = () => {
             <div>
               <div className="overflow-hidden rounded-[50%] h-[170px] sm:h-[300px] lg:h-[215px] xl:h-[300px]">
                 <Image
-                  src="/img/case/r-4.png"
+                  src="/img/case/r-4.svg"
                   alt="Results"
                   width={305}
                   height={305}

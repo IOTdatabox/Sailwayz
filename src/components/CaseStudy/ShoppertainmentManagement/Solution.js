@@ -5,7 +5,7 @@ import React from "react";
 
 const Solution = () => {
   return (
-    <div className="w-full bg-[url('/img/case/solution-2-small.png')] sm:bg-[url('/img/case/solution-2.png')] bg-cover bg-no-repeat bg-[0%_0%] sm:bg-center lg:bg-[0%_0%]">
+    <div className="w-full bg-[url('/img/case/solution-2-small.svg')] sm:bg-[url('/img/case/solution-2.svg')] bg-cover bg-no-repeat bg-[0%_0%] sm:bg-center lg:bg-[0%_0%]">
       <div className="container max-w-[1440px] px-5 mx-auto pt-[50px] sm:pt-[100px] lg:pt-[358px] pb-[50px] sm:pb-[100px] lg:px-10 xl:px-[63px]">
         <div>
           <Badge

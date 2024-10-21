@@ -4,7 +4,7 @@ import React from "react";
 
 const Results = () => {
   return (
-    <div className="w-full bg-[url('/img/case/results-bg-small.png')] sm:bg-[url('/img/case/results-bg.png')] bg-cover bg-no-repeat bg-[0%_12%] sm:bg-center xl:bg-[0%_0%]">
+    <div className="w-full bg-[url('/img/case/results-bg-small.svg')] sm:bg-[url('/img/case/results-bg.svg')] bg-cover bg-no-repeat bg-[0%_12%] sm:bg-center xl:bg-[0%_0%]">
       <div className="container max-w-[1440px] px-5 mx-auto py-[32px] sm:py-[50px] lg:py-[100px] lg:px-10 xl:px-[63px]">
         <div className="w-full sm:w-[420px] xl:w-[529px] h-auto ml-2 sm:ml-auto">
           <div className="mb-[10px]">

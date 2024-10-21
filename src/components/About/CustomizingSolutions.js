@@ -4,7 +4,7 @@ import Badge from "../Badge";
 
 const CustomizingSolutions = () => {
   return (
-    <div className="w-full bg-[url('/img/about/customizing-solutions-bg.png')] bg-cover bg-no-repeat bg-[0%_20%] max-sm:bg-[24%_20%]">
+    <div className="w-full bg-[url('/img/about/customizing-solutions-bg.svg')] bg-cover bg-no-repeat bg-[0%_20%] max-sm:bg-[24%_20%]">
       <div className="container max-w-[1440px] px-5 mx-auto pt-[50px] pb-[50px] sm:pt-[100px] sm:pb-[60px] lg:px-10 xl:px-[63px]">
         <div className="flex gap-0 mb-[30px] sm:mb-[58px]">
           <div className="hidden lg:block lg:w-[55%] xl:w-[57%]"></div>

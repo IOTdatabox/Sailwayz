@@ -20,7 +20,7 @@ const Responsive = () => {
       </h1>
       <div className="w-full rounded-[16px] mb-[10px]">
         <Image
-          src="/img/home/case-studies-1.png"
+          src="/img/home/case-studies-1.svg"
           alt="Responsive 1"
           width={335}
           height={197.63}
@@ -43,7 +43,7 @@ const Responsive = () => {
       </Link>
       <div className="w-full rounded-[16px] mb-[10px] mt-[31px]">
         <Image
-          src="/img/home/case-studies-2.png"
+          src="/img/home/case-studies-2.svg"
           alt="Responsive 2"
           width={335}
           height={197.63}
@@ -69,7 +69,7 @@ const Responsive = () => {
       </Link>
       <div className="w-full rounded-[16px] mb-[10px] mt-[31px]">
         <Image
-          src="/img/home/case-studies-3.png"
+          src="/img/home/case-studies-3.svg"
           alt="Responsive 3"
           width={335}
           height={198}

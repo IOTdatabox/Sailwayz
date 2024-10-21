@@ -45,7 +45,7 @@ const WhyChoose = () => {
           <div className="col-span-1 lg:col-span-7">
             <div className="flex items-center justify-center">
               <Image
-                src="/img/home/whychoose.png"
+                src="/img/home/whychoose.svg"
                 alt="Why Choose"
                 width={606}
                 height={414}
@@ -78,80 +78,98 @@ const WhyChoose = () => {
           <div className="col-span-6 xl:col-span-9">
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-[12px] sm:gap-[30px] lg:gap-[15px] xl:gap-[30px] mb-[30px] sm:mb-[60px]">
               <div className="cursor-pointer shine-hover">
-                <div className="shine rounded-[16px] h-auto">
+                <div className="shine rounded-[16px] p-[30px] lg:p-[20px] xl:p-[30px] bg-[url('/img/home/finance-bg.svg')] bg-cover bg-no-repeat h-[170px] sm:h-[240px] lg:h-[170px] xl:h-[240px]">
                   <Image
-                    src="/img/home/finance.png"
+                    src="/img/home/finance-icon.svg"
                     alt="Finance icon"
-                    width={300}
-                    height={240}
+                    width={62}
+                    height={62}
                     loading="lazy"
-                    className="w-full h-full"
+                    className="w-[48px] sm:w-[62px] h-[47px] sm:h-[62px] mb-[16px] sm:mb-[20px] lg:mb-[10px] xl:mb-[20px] max-sm:mt-[8px] "
                   />
+                  <h3 className="futura-bold text-white font-bold text-[18px] sm:text-[28px] lg:text-[22px] xl:text-[28px] leading-[26px] sm:leading-[38px] lg:leading-[32px] xl:leading-[38px]">
+                    Finance
+                  </h3>
                 </div>
               </div>
 
               <div className="cursor-pointer shine-hover">
-                <div className="shine rounded-[16px] h-auto">
+                <div className="shine rounded-[16px] p-[30px] lg:p-[20px] xl:p-[30px] bg-[url('/img/home/gov-org-bg.svg')] bg-cover bg-no-repeat h-[170px] sm:h-[240px] lg:h-[170px] xl:h-[240px]">
                   <Image
-                    src="/img/home/government-org.png"
-                    alt="government-org icon"
-                    width={300}
-                    height={240}
+                    src="/img/home/gov-org-icon.svg"
+                    alt="Government icon"
+                    width={62}
+                    height={62}
                     loading="lazy"
-                    className="w-full h-full"
+                    className="w-[48px] sm:w-[62px] h-[47px] sm:h-[62px] mb-[16px] sm:mb-[20px] lg:mb-[10px] xl:mb-[20px] max-sm:mt-[8px]"
                   />
+                  <h3 className="futura-bold text-white font-bold text-[18px] sm:text-[28px] lg:text-[22px] xl:text-[28px] leading-[26px] sm:leading-[38px] lg:leading-[32px] xl:leading-[38px]">
+                    Government Organisations
+                  </h3>
                 </div>
               </div>
 
               <div className="cursor-pointer shine-hover">
-                <div className="shine rounded-[16px] h-auto">
+                <div className="shine rounded-[16px] p-[30px] lg:p-[20px] xl:p-[30px] bg-[url('/img/home/retail-bg.svg')] bg-cover bg-no-repeat h-[170px] sm:h-[240px] lg:h-[170px] xl:h-[240px]">
                   <Image
-                    src="/img/home/retail.png"
-                    alt="retail icon"
-                    width={300}
-                    height={240}
+                    src="/img/home/retail-icon.svg"
+                    alt="Retail icon"
+                    width={62}
+                    height={62}
                     loading="lazy"
-                    className="w-full h-full"
+                    className="w-[48px] sm:w-[62px] h-[47px] sm:h-[62px] mb-[16px] sm:mb-[20px] lg:mb-[10px] xl:mb-[20px] max-sm:mt-[8px]"
                   />
+                  <h3 className="futura-bold text-white font-bold text-[18px] sm:text-[28px] lg:text-[22px] xl:text-[28px] leading-[26px] sm:leading-[38px] lg:leading-[32px] xl:leading-[38px]">
+                    Retail
+                  </h3>
                 </div>
               </div>
 
               <div className="cursor-pointer shine-hover">
-                <div className="shine rounded-[16px] h-auto">
+                <div className="shine rounded-[16px] p-[30px] lg:p-[20px] xl:p-[30px] bg-[url('/img/home/connectivity-bg.svg')] bg-cover bg-no-repeat h-[170px] sm:h-[240px] lg:h-[170px] xl:h-[240px]">
                   <Image
-                    src="/img/home/connectivity.png"
-                    alt="connectivity icon"
-                    width={300}
-                    height={240}
+                    src="/img/home/connectivity.svg"
+                    alt="Connectivity icon"
+                    width={62}
+                    height={62}
                     loading="lazy"
-                    className="w-full h-full"
+                    className="w-[48px] sm:w-[62px] h-[47px] sm:h-[62px] mb-[16px] sm:mb-[20px] lg:mb-[10px] xl:mb-[20px] max-sm:mt-[8px]"
                   />
+                  <h3 className="futura-bold text-white font-bold text-[18px] sm:text-[28px] lg:text-[22px] xl:text-[28px] leading-[26px] sm:leading-[38px] lg:leading-[32px] xl:leading-[38px]">
+                    Connectivity
+                  </h3>
                 </div>
               </div>
 
               <div className="cursor-pointer shine-hover">
-                <div className="shine rounded-[16px] h-auto">
+                <div className="shine rounded-[16px] p-[30px] lg:p-[20px] xl:p-[30px] bg-[url('/img/home/law-bg.svg')] bg-cover bg-no-repeat h-[170px] sm:h-[240px] lg:h-[170px] xl:h-[240px]">
                   <Image
-                    src="/img/home/law.png"
-                    alt="law icon"
-                    width={300}
-                    height={240}
+                    src="/img/home/law-icon.svg"
+                    alt="Law icon"
+                    width={62}
+                    height={62}
                     loading="lazy"
-                    className="w-full h-full"
+                    className="w-[48px] sm:w-[62px] h-[47px] sm:h-[62px] mb-[16px] sm:mb-[20px] lg:mb-[10px] xl:mb-[20px] max-sm:mt-[8px]"
                   />
+                  <h3 className="futura-bold text-white font-bold text-[18px] sm:text-[28px] lg:text-[22px] xl:text-[28px] leading-[26px] sm:leading-[38px] lg:leading-[32px] xl:leading-[38px]">
+                    Law
+                  </h3>
                 </div>
               </div>
 
               <div className="cursor-pointer shine-hover">
-                <div className="shine rounded-[16px] h-auto">
+                <div className="shine rounded-[16px] p-[30px] lg:p-[20px] xl:p-[30px] bg-[url('/img/home/manufacturing-bg.svg')] bg-cover bg-no-repeat h-[170px] sm:h-[240px] lg:h-[170px] xl:h-[240px]">
                   <Image
-                    src="/img/home/manufacturing.png"
-                    alt="manufacturing icon"
-                    width={300}
-                    height={240}
+                    src="/img/home/manufacturing-icon.svg"
+                    alt="Manufacturing icon"
+                    width={62}
+                    height={62}
                     loading="lazy"
-                    className="w-full h-full"
+                    className="w-[48px] sm:w-[62px] h-[47px] sm:h-[62px] mb-[16px] sm:mb-[20px] lg:mb-[10px] xl:mb-[20px] max-sm:mt-[8px]"
                   />
+                  <h3 className="futura-bold text-white font-bold text-[18px] sm:text-[28px] lg:text-[22px] xl:text-[28px] leading-[26px] sm:leading-[38px] lg:leading-[32px] xl:leading-[38px]">
+                    Manufacturing
+                  </h3>
                 </div>
               </div>
             </div>

@@ -43,7 +43,7 @@ const DiscoverTransform = () => {
           <div className="lg:flex max-xl:items-center gap-[5%]">
             <div className="w-full lg:w-[50%] xl:w-[60%]">
               <Image
-                src="/img/services/service-t.png"
+                src="/img/services/service-t.svg"
                 alt="Team working together"
                 width={753}
                 height={370}

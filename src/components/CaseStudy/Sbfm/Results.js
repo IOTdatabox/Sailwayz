@@ -9,7 +9,7 @@ const Results = () => {
         <div className="flex flex-col lg:flex-row lg:items-center gap-[16px] sm:gap-[30px] lg:gap-[60px]">
           <div className="w-full lg:w-[58%] ">
             <Image
-              src="/img/case/results-image.png"
+              src="/img/case/results-image.svg"
               alt="results"
               width={727}
               height={490}

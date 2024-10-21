@@ -17,7 +17,7 @@ const TestimonialsAbout = () => {
   };
 
   return (
-    <div className="w-full bg-[url('/img/about/testimonials-bg.png')] bg-cover bg-no-repeat bg-[75%_20%] sm:bg-[71%_20%] lg:bg-[63%_20%] xl:bg-[83%_20%] 2xl:bg-[0%_20%] ">
+    <div className="w-full bg-[url('/img/about/testimonials-bg.svg')] bg-cover bg-no-repeat bg-[75%_20%] sm:bg-[71%_20%] lg:bg-[63%_20%] xl:bg-[83%_20%] 2xl:bg-[0%_20%] ">
       <div className="container max-w-[1440px] px-5 mx-auto py-[50px] sm:py-[100px] lg:px-10 xl:px-[63px]">
         <div className="flex gap-0 lg:gap-[30px] sm:mb-[116px]">
           <div className="w-full sm:w-[75%] lg:w-[60%] xl:w-[45%]">

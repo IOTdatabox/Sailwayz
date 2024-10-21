@@ -7,7 +7,7 @@ import Badge from "./Badge";
 
 const caseStudies = [
   {
-    image: "/img/home/case-studies-1.png",
+    image: "/img/home/case-studies-1.svg",
     alt: "Case Studies 1",
     title: "Vaioni Group Case Study",
     content:
@@ -15,7 +15,7 @@ const caseStudies = [
     link: "/vaioni-group",
   },
   {
-    image: "/img/home/case-studies-2.png",
+    image: "/img/home/case-studies-2.svg",
     alt: "Case Studies 2",
     title: "Shoppertainment Management Case Study",
     content:
@@ -23,7 +23,7 @@ const caseStudies = [
     link: "/shoppertainment-management",
   },
   {
-    image: "/img/home/case-studies-3.png",
+    image: "/img/home/case-studies-3.svg",
     alt: "Case Studies 3",
     title: "SBFM Case Study",
     content:

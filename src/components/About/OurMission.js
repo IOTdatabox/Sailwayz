@@ -22,19 +22,12 @@ const OurMission = () => {
         <div className="w-full lg:w-[60%] xl:w-[58%] lg:pr-[50px]">
           <div className="relative h-full">
             <Image
-              src="/img/about/our-mission.png"
+              src="/img/about/our-mission.svg"
               alt="Our Mission"
               width={753}
               height={395}
               loading="lazy"
               className="w-full h-full rounded-[24px]"
-            />
-            <Image
-              src="/img/about/play-icon.svg"
-              alt="Play icon"
-              width={72}
-              height={72}
-              className="absolute w-[34.28px] sm:w-[72px] h-[34.28px] sm:h-[72px] top-[42%] left-[45%] lg:left-[43%]"
             />
           </div>
         </div>

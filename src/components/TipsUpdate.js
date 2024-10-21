@@ -2,7 +2,7 @@ import React from "react";
 
 const TipsUpdate = () => {
   return (
-    <div className=" max-md:bg-right bg-[url('/img/home/subscribe-bg-2.png')] md:bg-[url('/img/home/subscribe-background.png')] bg-cover bg-no-repeat">
+    <div className=" max-md:bg-right bg-[url('/img/home/subscribe-bg-2.png')] md:bg-[url('/img/home/subscribe-background.svg')] bg-cover bg-no-repeat">
       <div className="container px-5 mx-auto py-[97px] lg:px-10 xl:px-[63px] max-w-[1440px]">
         <div className="text-center">
           <h1 className="text-[30px] md:text-[48px] leading-[58px] text-center kanit-bold text-white font-bold mb-[10px]">
