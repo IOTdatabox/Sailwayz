@@ -81,10 +81,10 @@ const Footer = () => {
                 <li className="mt-4 lato-font">Call us now</li>
                 <li className="mt-1">
                   <a
-                    href="mailto:info@sailways.com"
+                    href="mailto:info@sailwayz.com"
                     className="hover:text-primaryBlue hover:underline"
                   >
-                    info@sailways.com
+                    info@sailwayz.com
                   </a>
                 </li>
               </ul>
@@ -98,10 +98,10 @@ const Footer = () => {
               <li className="mt-4 lato-font">Call us now</li>
               <li className="mt-1">
                 <a
-                  href="mailto:info@sailways.com"
+                  href="mailto:info@sailwayz.com"
                   className="hover:text-primaryBlue hover:underline"
                 >
-                  info@sailways.com
+                  info@sailwayz.com
                 </a>
               </li>
             </ul>
@@ -162,7 +162,7 @@ const Footer = () => {
         <div className="flex flex-col justify-center py-10 lg:flex-row lg:justify-between lg:py-5 text-lightGrey">
           <div className="max-lg:text-center">
             <p className="m-0 text-[16px]">
-              © 2023 Sailways. All rights reserved.
+              © 2023 Sailwayz. All rights reserved.
             </p>
           </div>
           <div className="lg:flex items-center gap-[35px] py-3 lg:py-0">

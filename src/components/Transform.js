@@ -36,7 +36,7 @@ const Transform = () => {
           </div>
           <div className="sm:col-span-7 lg:col-span-8 xl:col-span-9">
             <p className="text-[13px] sm:text-[16px] xl:text-[20px] leading-[19px] sm:leading-[24px] xl:leading-[30px] font-normal text-white lato-thin pr-0 lg:pr-[156px] xl:pr-[285px]">
-              At Sailways, we master the art of integrating Salesforce CRM
+              At Sailwayz, we master the art of integrating Salesforce CRM
               systems to drive business expansion. With a tailored strategy, we
               assist organizations in boosting sales, improving customer
               connections, and optimizing processes.

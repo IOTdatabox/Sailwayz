@@ -7,40 +7,40 @@ import Badge from "./Badge";
 const testimonials = [
   {
     name: "Sam W",
-    role: "Account Manager at V1CECONNECTIONS",
-    company: "/img/home/v1ce.svg",
+    role: "Account Manager",
+    company: "V1CECONNECTIONS",
     image: "/img/home/t-1.jpg",
     content:
       "Sailwayz has been a game-changer for our business. Their team took the time to fully understand our Salesforce needs and delivered a tailored solution that has greatly improved our sales processes. The implementation was seamless, and their ongoing support has been outstanding. Thanks to Sailwayz, we’ve seen enhanced efficiency in managing client relationships and tracking our performance. I would highly recommend their services to any company looking to get the most out of Salesforce.",
   },
   {
     name: "Dennis Y",
-    role: "Founder of CNVRT",
-    company: "/img/home/cnrvt.svg",
+    role: "Founder",
+    company: "CNVRT",
     image: "/img/home/t-2.jpg",
     content:
       "Our experience with Sailwayz has been nothing short of exceptional. Their team's deep understanding of Salesforce has completely transformed the way we manage our lead generation processes. From customising the CRM to fit our unique business model to offering expert advice at every step, Sailwayz has been an invaluable partner. Their solutions have streamlined our operations, making it easier to track leads and boost overall efficiency. We highly recommend Sailwayz to any business looking to optimise their Salesforce strategy.",
   },
   {
     name: "Daniel P",
-    role: "Founder of R1SE Insurance",
-    company: "/img/home/r1se.svg",
+    role: "Founder",
+    company: "R1SE INSURANCE",
     image: "/img/home/t-3.jpg",
     content:
       "I can't express how impressed I am with Sailwayz's services. Their expertise in Salesforce consulting has been invaluable for our growth at R1SE. The team's ability to understand our unique needs and provide tailored solutions has truly elevated our operations. Their support throughout the implementation process was exceptional, and the results have far exceeded our expectations. If you're looking for a partner to optimise your sales processes and drive business growth, I wholeheartedly recommend Sailwayz.",
   },
   {
     name: "Luke S",
-    role: "Founder of Pinnacle LC lifestyle Ltd",
-    company: "/img/home/karcher.svg",
+    role: "Founder",
+    company: "PINNACLE LC LIFESTYLE LTD",
     image: "/img/home/t-4.jpg",
     content:
       "Managing and scaling a personalized, in-home fitness business requires precision—and Sailwayz has been instrumental in helping us streamline operations through Salesforce CRM. Their tailored approach ensured our scheduling, client management, and reporting processes were seamless, giving us more time to focus on our clients' wellness journeys. The team at Sailwayz worked closely with us to understand our specific needs, delivering strategic solutions that enhanced both efficiency and growth. I highly recommend Sailwayz to any business looking to elevate their CRM and customer management capabilities.",
   },
   {
     name: "Akshay K",
-    role: "Founder of Synx Limited",
-    company: "/img/home/next.svg",
+    role: "Founder",
+    company: "SYNX LIMITED",
     image: "/img/home/t-5.jpg",
     content:
       "At Synx, we understand the importance of leveraging the right tools to scale—and Sailwayz made that journey effortless for us. Their Salesforce expertise didn’t just optimize our processes; it empowered our team to work smarter and more efficiently. From smooth data migration to customized CRM solutions, every interaction with their team reflected professionalism and strategic insight. Thanks to Sailwayz, we’ve been able to unlock new growth opportunities, and I couldn’t recommend them more for any business seeking to maximize their CRM potential.",
@@ -149,14 +149,9 @@ const Testimonials = () => {
                       </div>
                       <div className="bg-[#b7bfcc80] h-[42px] w-[1.5px]"></div>
                       <div className="ps-10">
-                        <Image
-                          src={testimonial.company}
-                          alt={testimonial.company}
-                          width={80}
-                          height={18}
-                          className="w-auto h-[18px]"
-                          loading="lazy"
-                        />
+                        <h4 className="text-[18px] font-extrabold text-coolGrey leading-[28px]">
+                          {testimonial.company}
+                        </h4>
                       </div>
                     </div>
                   </div>

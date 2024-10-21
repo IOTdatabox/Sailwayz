@@ -30,7 +30,7 @@ const StepByStepGuide = () => {
             />
           </div>
           <h1 className="futura-normal font-normal text-[24px] lg:text-[32px] xl:text-[36px] leading-[32px] lg:leading-[43px] xl:leading-[46px] text-center text-primaryColor mb-[40px] sm:mb-[45px] lg:mb-[50px] xl:mb-[55px]">
-            Optimize Your Business with Sailways CRM Solutions
+            Optimize Your Business with Sailwayz CRM Solutions
           </h1>
           <div className="relative grid grid-cols-1 sm:grid-cols-2 mb-[50px]">
             {/* Auto-Progressing Vertical Line */}

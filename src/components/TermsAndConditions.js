@@ -315,7 +315,7 @@ const TermsAndConditions = () => {
             <li>
               <p className="p-paragraph">
                 By email:{" "}
-                <a href="mailto:hello@sailways.com">hello@sailways.com</a>
+                <a href="mailto:hello@sailwayz.com">hello@sailwayz.com</a>
               </p>
             </li>
             <li>

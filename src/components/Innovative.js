@@ -19,7 +19,7 @@ const Innovative = () => {
           Transforming Salesforce CRM Implementation for Businesses
         </h2>
         <p className="text-lightGrey font-light lato-thin text-[13px] leading-[19px] text-center tracking-wide">
-          At Sailways, we take a unique approach to Salesforce CRM
+          At Sailwayz, we take a unique approach to Salesforce CRM
           implementation, tailored to meet the specific needs of your business.
           Our team of experts will guide you through the process, ensuring a
           seamless transition and maximum return on investment.

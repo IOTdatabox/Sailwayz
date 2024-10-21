@@ -62,10 +62,10 @@ const DiscoverTransform = () => {
                 />
               </div>
               <h2 className="text-primaryColor text-[24px] xl:text-[36px] leading-[35px] xl:leading-[46px] font-bold ">
-                Discover the potential of Salesforce with Sailways.
+                Discover the potential of Salesforce with Sailwayz.
               </h2>
               <p className="text-secondaryColor text-[16px] xl:text-[20px] leading-[30px] font-normal mb-6 mt-3">
-                Sailways is your partner for personalized consultations, custom
+                Sailwayz is your partner for personalized consultations, custom
                 CRM strategies, and ongoing support to harness Salesforce&apos;s
                 capabilities. Our team of experts works closely with you to
                 comprehend your specific business requirements, providing

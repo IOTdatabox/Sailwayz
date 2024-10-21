@@ -92,7 +92,7 @@ const CookiePolicy = () => {
             <li>
               <p className="p-paragraph !my-0">
                 <strong>Email:</strong>{" "}
-                <a href="mailto:hello@sailways.com">hello@sailways.com</a>
+                <a href="mailto:hello@sailwayz.com">hello@sailwayz.com</a>
               </p>
             </li>
             <li>

@@ -16,7 +16,7 @@ const Responsive = () => {
         />
       </div>
       <h1 className="futura-bold font-bold text-[24px] leading-[32px] text-primaryColor text-center mb-[30px]">
-        Learn about Sailways&apos; Salesforce victories.
+        Learn about Sailwayz&apos; Salesforce victories.
       </h1>
       <div className="w-full rounded-[16px] mb-[10px]">
         <Image

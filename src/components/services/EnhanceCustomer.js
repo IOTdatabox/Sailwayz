@@ -38,7 +38,7 @@ const EnhanceCustomer = () => {
             src="/img/services/e-1.png"
             title="Optimizing Your CRM Sales Strategy"
             content={
-              "At Sailways, our tailored Salesforce CRM consulting services are designed to enhance sales strategies and foster business growth."
+              "At Sailwayz, our tailored Salesforce CRM consulting services are designed to enhance sales strategies and foster business growth."
             }
             content1={
               "Our seasoned professionals collaborate closely with you to grasp your business's distinct needs and implement Salesforce solutions customized to meet those needs. Whether it's CRM customization, data transfer, or training users, our expertise ensures success."
@@ -49,7 +49,7 @@ const EnhanceCustomer = () => {
             src="/img/services/e-2.png"
             title="Revolutionize Your Sales Tactics"
             content={
-              "Efficient workflows are the backbone of any thriving business. Sailways excels in refining operations with Salesforce CRM."
+              "Efficient workflows are the backbone of any thriving business. Sailwayz excels in refining operations with Salesforce CRM."
             }
             content1={
               "By automating routine tasks and refining processes, our consultants help you harness Salesforce’s capabilities to elevate efficiency and productivity across your enterprise. Allow us to help you unlock Salesforce's full potential and advance your operations."
@@ -60,10 +60,10 @@ const EnhanceCustomer = () => {
             src="/img/services/e-3.png"
             title="Simplify Your Workflows Boost Customer Interaction"
             content={
-              "In today’s competitive market, delivering outstanding customer experiences is vital. Sailways' Salesforce CRM consulting services enable you to enhance customer interaction and build enduring connections."
+              "In today’s competitive market, delivering outstanding customer experiences is vital. Sailwayz' Salesforce CRM consulting services enable you to enhance customer interaction and build enduring connections."
             }
             content1={
-              "Our team guides you in deploying customer-focused strategies, utilizing Salesforce’s robust tools for tailored marketing, effortless communication, and superior customer service. Elevate your customer engagement to unprecedented levels with Sailways."
+              "Our team guides you in deploying customer-focused strategies, utilizing Salesforce’s robust tools for tailored marketing, effortless communication, and superior customer service. Elevate your customer engagement to unprecedented levels with Sailwayz."
             }
           />
         </div>

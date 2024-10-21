@@ -32,10 +32,10 @@ const WhyChoose = () => {
               />
             </div>
             <h2 className="futura-bold font-bold text-[24px] sm:text-[32px] lg:text-[36px] leading-[32px] sm:leading-[46px] text-primaryColor mb-[20px]">
-              Why Choose Sailways?
+              Why Choose Sailwayz?
             </h2>
             <p className="lato-font font-normal text-[13px] sm:text-[18px] lg:text-[20px] leading-[19px] sm:leading-[30px] text-secondaryColor">
-              At Sailways, we specialize in personalized consultations, tailored
+              At Sailwayz, we specialize in personalized consultations, tailored
               CRM strategies, and continuous support to unlock Salesforce&apos;s
               full potential. Our expert team collaborates with you to
               understand your unique business needs, delivering solutions that

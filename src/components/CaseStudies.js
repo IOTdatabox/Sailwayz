@@ -58,7 +58,7 @@ const CaseStudies = () => {
             />
           </div>
           <h2 className="futura-bold text-white text-[32px] lg:text-[36px] leading-[43px] lg:leading-[46px] font-bold mb-[40px]">
-            Learn about Sailways&apos; Salesforce victories.
+            Learn about Sailwayz&apos; Salesforce victories.
           </h2>
           <div className="w-[400px] lg:w-full h-full grid grid-cols-1 lg:grid-cols-3 gap-[30px] xl:gap-[40px]">
             {caseStudies.map((caseStudy, index) => (

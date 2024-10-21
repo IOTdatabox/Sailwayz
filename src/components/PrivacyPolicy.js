@@ -561,7 +561,7 @@ const PrivacyPolicy = () => {
             <li>
               <p className="p-paragraph">
                 By email:{" "}
-                <a href="mailto:info@sailways.com">info@sailways.com</a>
+                <a href="mailto:info@sailwayz.com">info@sailwayz.com</a>
               </p>
             </li>
             <li>

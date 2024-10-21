@@ -41,7 +41,7 @@ const ContactInformation = () => {
                   For any inquiries, please contact:
                 </p>
                 <p className="futura-normal font-medium text-[16px] sm:text-[22px] lg:text-[20px] xl:text-[22px] leading-[24.3px] sm:leading-[32px] lg:leading-[30px] xl:leading-[32px] text-primaryColor">
-                  <a href="mailto:hello@sailways.com">hello@sailways.com</a>
+                  <a href="mailto:hello@sailwayz.com">hello@sailwayz.com</a>
                 </p>
               </div>
             </div>
