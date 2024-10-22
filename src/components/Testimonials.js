@@ -32,7 +32,7 @@ const testimonials = [
   {
     name: "Luke S",
     role: "Founder",
-    company: "PINNACLE LC LIFESTYLE LTD",
+    company: "PINNACLE LIFESTYLE LTD",
     image: "/img/home/t-4.jpg",
     content:
       "Managing and scaling a personalized, in-home fitness business requires precision—and Sailwayz has been instrumental in helping us streamline operations through Salesforce CRM. Their tailored approach ensured our scheduling, client management, and reporting processes were seamless, giving us more time to focus on our clients' wellness journeys. The team at Sailwayz worked closely with us to understand our specific needs, delivering strategic solutions that enhanced both efficiency and growth. I highly recommend Sailwayz to any business looking to elevate their CRM and customer management capabilities.",
